@@ -12,7 +12,7 @@ model.fit(x, y)
 try:
     age = int(input("Age: "))
     ielts = float(input("IELTS score: "))
-    projects = int(input("Completed projects: "))
+    projects = float(input("Completed projects: "))
     soft = int(input("Soft skill score (1-10): "))
     hard = int(input("Hard skill score (1-10): "))
     
